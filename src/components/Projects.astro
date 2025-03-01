@@ -4,6 +4,7 @@ import NextJS from "./icons/NextJS.astro"
 import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
+import Kali from "./icons/kali.astro"
 
 const TAGS = {
   NEXT: {
@@ -16,16 +17,21 @@ const TAGS = {
     class: "bg-[#003159] text-white",
     icon: Tailwind,
   },
+  KALI: {
+    name: "Kali Linux",
+    class: "bg-[#557C94] text-white",
+    icon: Kali,
+  },
 }
 const PROJECTS = [
   {
-    title: "SVGL - A beautiful library with SVG logos",
+    title: "Auditoría de Seguridad y Pentesting en Servidor Debian",
     description:
-      "Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS.",
-    link: "https://svgl.vercel.app/",
-    github: "https://github.com/pheralb/svgl",
-    image: "/projects/svgl.webp",
-    tags: [TAGS.NEXT, TAGS.TAILWIND],
+      "Este proyecto Incluye un informe detallado de pentesting, cumplimiento de los estándares SGSI (Seguridad de la Información y Gestión de Sistemas), y un plan de recuperación estructurado para mitigar vulnerabilidades. El objetivo es identificar, evaluar y fortalecer la seguridad del servidor, garantizando su resistencia frente a amenazas cibernéticas.",
+    // link: "https://svgl.vercel.app/",
+    // github: "https://github.com/pheralb/svgl",
+    image: "/projects/AuditoriaservidorDebian.png",
+    tags: [TAGS.KALI, TAGS.TAILWIND],
   },
   {
     title: "AdventJS - Retos de programación con JavaScript y TypeScript",
