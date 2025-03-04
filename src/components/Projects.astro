@@ -5,6 +5,7 @@ import Tailwind from "./icons/Tailwind.astro"
 import Link from "./icons/Link.astro"
 import LinkButton from "./LinkButton.astro"
 import Kali from "./icons/Kali.astro"
+import Metasploit from "./icons/Metasploit.astro"
 
 const TAGS = {
   NEXT: {
@@ -22,6 +23,11 @@ const TAGS = {
     class: "bg-[#557C94] text-white",
     icon: Kali,
   },
+  METASPLOIT: {
+    name: "Metasploit",
+    class: "bg-[#dc143c] text-white",
+    icon: Metasploit,
+  },
 }
 const PROJECTS = [
   {
@@ -32,7 +38,7 @@ const PROJECTS = [
     // link: "https://svgl.vercel.app/",
     github: "https://github.com/luchoarossa/AuditoriaServidorDebian",
     image: "/projects/AuditoriaservidorDebian.png",
-    tags: [TAGS.KALI, TAGS.TAILWIND],
+    tags: [TAGS.KALI, TAGS.METASPLOIT],
   },
   // {
   //   title: "AdventJS - Retos de programación con JavaScript y TypeScript",
